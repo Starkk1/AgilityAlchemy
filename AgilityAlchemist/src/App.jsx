@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 import SignUP from './components/SignUp/SignUp'
 import SignIn from './components/SignIn/SignIn'
 
-function SignUPPage(){
+function SignUpPage(){
     return(<>
     <SignUP/>
     <Footer/>
@@ -25,7 +25,7 @@ function SignInPage()
 
 function App() {
 return(
-SignInPage()
+SignUpPage()
 )
 }
 

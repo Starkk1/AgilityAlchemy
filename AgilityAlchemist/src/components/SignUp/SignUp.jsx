@@ -1,5 +1,6 @@
 import React from "react";
 import InputField from "../InputFields";
+import './SignUp.css'
 
 
 export default function SignUP() {
@@ -7,7 +8,7 @@ export default function SignUP() {
     <main>
       <div className="container">
         <form action="./index.php" method="get">
-          <h2>Sign up </h2>
+          <h2>Sign Up </h2>
           <h3>to Agility Alchemist</h3>
           <div className="input-group">
           <InputField type="text" name="Username" />
