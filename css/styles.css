@@ -1,19 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-
 @font-face {
-    font-family: 'blend';
-    src: url(Fonts/Blending-rgjzK.otf);
+    font-family: 'PostenOne';
+    src: url(Fonts/PoetsenOne.ttf);
 }
-
+@font-face {
+    font-family: 'Poppins';
+    src: url(Fonts/Poppins/Poppins-Regular.ttf);
+}
+*{
+    font-family: "Poppins";
+}
 /* Applies to the all body */
 body {
 
     background: url(images/gymBg.jpg);
     background-position: center;
     background-size: cover;
-
+    
 }
-
 main {
     min-height: 100vh;
     display: flex;
@@ -25,7 +28,7 @@ main {
 /* Applies to the all the form */
 .container {
     width: 400px;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,16 +37,22 @@ main {
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
 }
-
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* applies to any H2 tag in any form*/
 form h2,
 h3 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 600;
     text-align: center;
     letter-spacing: 0.8px;
+    margin: 1px;
 }
+
 
 /* applies to the input group class */
 .input-group {
@@ -80,7 +89,8 @@ h3 {
 /* applies to the input tags in the input group while typing and while inputs are valid
  */
 .input-group input:focus~.label,
-.input-group input:valid~.label {
+.input-group input:valid~.label
+.input-group {
     top: -20px;
     font-size: 13px;
     color: antiquewhite;
@@ -151,25 +161,25 @@ form button:hover {
     background: rgba(255, 255, 255, 0.25);
 }
 
-/* applies to the .sign-in */
-.sign-in {
+/* applies to the .sign-up */
+.sign-up {
     margin-top: 20px;
     text-align: center;
 }
 
 /* applies to the P element in the sign in class
  */
-.sign-in p {
+.sign-up p {
     color: aliceblue;
     font-size: 14px;
 }
 
-.sign-in p a {
+.sign-up p a {
     color: antiquewhite;
     text-decoration: none;
 }
 
-.sign-in p a:hover {
+.sign-up p a:hover {
     color: rgb(243, 69, 170);
     transition: 0.3s;
 }
@@ -194,7 +204,8 @@ footer a:hover {
 
 .gender-container {
     display: flex;
-    justify-content: space-between;
+   align-self: normal;
+   justify-content: space-between;
     margin: 15px 0 10px 0;
 }
 
@@ -202,10 +213,6 @@ footer a:hover {
     color: aliceblue;
 }
 
-.gender-line {
-    margin: 0px 0;
-    border: 1px solid rgb(255, 255, 255);
-}
 
 .gender-line input {
     margin: 0 5em;
@@ -216,7 +223,7 @@ footer a:hover {
 }
 
 .radio input {
-    
+
     width: 15px;
     height: 15px;
     appearance: none;
