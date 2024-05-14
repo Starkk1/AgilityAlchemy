@@ -1,5 +1,5 @@
-
-/* ---------------------------------------------------- SIGN UP PAGE Styles ----------------------------------------------------  */
+/* 
+/* ---------------------------------------------------- SIGN UP PAGE Styles ---------------------------------------------------- 
 @font-face {
     font-family: 'PostenOne';
     src: url(Fonts/PoetsenOne.ttf);
@@ -11,7 +11,7 @@
   *{
     font-family: "Poppins";
   }
-  /* Applies to the all body */
+  /* Applies to the all body 
   body {
   
     background: url(/images/scott-webb-xwMlVSqP20U-unsplash.jpg);
@@ -27,7 +27,7 @@
     font-family: sans-serif;
   }
   
-  /* Applies to the all the form */
+  /* Applies to the all the form 
   .container {
     width: 400px;
     height: 500px;
@@ -44,7 +44,7 @@
     flex-direction: column;
     align-items: center;
   }
-  /* applies to any H2 tag in any form*/
+  /* applies to any H2 tag in any form
   form h2,
   h3 {
     color: rgb(255, 255, 255);
@@ -56,14 +56,14 @@
   }
   
   
-  /* applies to the input group className */
+  /* applies to the input group className 
   .input-group {
     position: relative;
     margin: 35px auto 0;
     width: 320px;
   }
   
-  /* applies to any input tag in the input-group*/
+  /* applies to any input tag in the input-group
   .input-group input {
     font-size: 20px;
     width: 100%;
@@ -89,7 +89,7 @@
   }
   
   /* applies to the input tags in the input group while typing and while inputs are valid
-  */
+  
   .input-group input:focus~.label,
   .input-group input:valid~.label
   .input-group {
@@ -101,7 +101,7 @@
   
   
   /* Applies to the checkbox itself
-  */
+  
   
   form button {
     width: 100%;
@@ -117,19 +117,19 @@
   }
   
   /* applies when any button in form is hovered
-  */
+  
   form button:hover {
     background: rgba(255, 255, 255, 0.25);
   }
   
-  /* applies to the .sign-up */
+  /* applies to the .sign-up 
   .sign-up {
     margin-top: 20px;
     text-align: center;
   }
   
   /* applies to the P element in the sign in className
-  */
+  
   .sign-up p {
     color: aliceblue;
     font-size: 14px;
@@ -144,8 +144,8 @@
     color: rgb(243, 69, 170);
     transition: 0.3s;
   }
-  /* ---------------------------------------------------- SIGN IN PAGE Styles ----------------------------------------------------  */
+  /* ---------------------------------------------------- SIGN IN PAGE Styles ----------------------------------------------------  
   
   
   
-  
+   */

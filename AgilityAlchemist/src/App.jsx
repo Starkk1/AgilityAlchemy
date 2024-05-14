@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+/* import Footer from './components/Footer' */
+/* import SignUP from './components/SignUp/SignUp'
+import SignIn from './components/SignIn/SignIn'  */
 import './App.css'
-import Footer from './components/Footer'
-import SignUP from './components/SignUp/SignUp'
-import SignIn from './components/SignIn/SignIn'
+import Home from './components/HomeNotUser/Home' 
+
 
 function SignUpPage(){
     return(<>
@@ -21,11 +23,13 @@ function SignInPage()
         <Footer/>
         </>
     )
-}
+} 
 
 function App() {
 return(
-SignUpPage()
+<>
+<Home/>
+</>
 )
 }
 

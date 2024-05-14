@@ -36,7 +36,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #05141B;
+    background-color: #000000;
     width: 100vw;
     height: fit-content;
     min-height: 5em;

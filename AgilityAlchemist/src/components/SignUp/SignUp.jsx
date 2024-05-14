@@ -1,7 +1,6 @@
 import React from "react";
 import InputField from "../InputFields";
-import './SignUp.css'
-
+/* import './SignUp.css'  */
 
 export default function SignUP() {
   return (
